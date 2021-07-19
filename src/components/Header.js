@@ -1,60 +1,34 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+import logo from '../images/logo_beleevens.png'
+import logo_text from '../images/logo_text.png'
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <span className="icon fa-diamond"></span>
+            <img src={logo} alt=""/>
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Dimension</h1>
+
+        <img src={logo_text} alt="" class="logo_text"/>
+        <h1>Creativity * Technology</h1>
         <p>
-          A fully responsive site template designed by{' '}
-          <a href="https://html5up.net">HTML5 UP</a> and released
-          <br />
-          for free under the{' '}
-          <a href="https://html5up.net/license">Creative Commons</a> license.
+          Innovation happens when a creative mind meets deep technological understanding.
+          </p>
+          <p style={{"width":"90%", "paddingLeft": "10%"}}>
+          I will help you to connect the dots between human needs, technology and business opportunities.
         </p>
       </div>
     </div>
     <nav>
       <ul>
         <li>
-          <button
-            onClick={() => {
-              props.onOpenArticle('intro')
-            }}
-          >
-            Intro
+          <a href="mailto:hi@beleevens.com">
+          <button>
+            Reach out
           </button>
-        </li>
-        <li>
-          <button
-            onClick={() => {
-              props.onOpenArticle('work')
-            }}
-          >
-            Work
-          </button>
-        </li>
-        <li>
-          <button
-            onClick={() => {
-              props.onOpenArticle('about')
-            }}
-          >
-            About
-          </button>
-        </li>
-        <li>
-          <button
-            onClick={() => {
-              props.onOpenArticle('contact')
-            }}
-          >
-            Contact
-          </button>
+          </a>
         </li>
       </ul>
     </nav>
