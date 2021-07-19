@@ -54,7 +54,7 @@
 	}
 
 	p {
-		margin: 0 0 _size(element-margin) 0;
+		margin: 0 0 1rem 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -82,7 +82,7 @@
 	}
 
 	h1 {
-		font-size: 2.25rem;
+		font-size: 1.7rem;
 		line-height: 1.3;
 		letter-spacing: _font(letter-spacing-heading);
 	}
@@ -111,8 +111,8 @@
 
 	@include breakpoint(small) {
 		h1 {
-			font-size: 1.75rem;
-			line-height: 1.4;
+			font-size: 1.5rem;
+			line-height: 1.2;
 		}
 
 		h2 {
