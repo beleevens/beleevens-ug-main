@@ -63,9 +63,9 @@
   }
 
   .logo {
-    width: 5.5rem;
-    height: 5.5rem;
-    line-height: 5.5rem;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
     border: solid _size(border-width) _palette(border);
     border-radius: 100%;
 
@@ -82,7 +82,7 @@
   }
 
   .logo_text{
-    width:20%;
+    width:15%;
     height: auto;
     margin-bottom: 1rem;
   }
@@ -92,7 +92,7 @@
     border-color: _palette(border);
     border-top-width: _size(border-width);
     border-bottom-width: _size(border-width);
-    max-width: 60%;
+    max-width: 80%;
 
     .inner {
       @include vendor(
