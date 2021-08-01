@@ -26,7 +26,7 @@ const Header = props => (
         <li>
           <a href="mailto:hi@beleevens.com">
           <button>
-          Free to freelance. Drop me a line!
+            Want to build something? Drop me a line!
           </button>
           </a>
         </li>
