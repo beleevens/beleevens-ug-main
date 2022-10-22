@@ -3,7 +3,20 @@
 @import 'libs/mixins';
 @import 'libs/skel';
 @import '../css/font-awesome.min.css';
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600');
+//@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600');
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/SourceSansPro-Light.ttf') format('woff2');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/SourceSansPro-SemiBold.ttf') format('woff2');
+}
 
 /*
 	Dimension by HTML5 UP
